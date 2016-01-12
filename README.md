@@ -16,7 +16,7 @@
 
 3、修改当前使用主题的`sidebar.php`，在自己需要的位置加上
 
-```html
+```php
 <?php if (class_exists("Calendar_Plugin")): ?>
     <div class="list-group">
         <a class="list-group-item active"><i class="fa fa-calendar fa-fw"></i> <?php _e('日历');?></a>
